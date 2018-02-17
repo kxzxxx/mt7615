@@ -62,8 +62,7 @@ int wl_proc_exit(void);
 #endif /* PROCREG_DIR */
 
 #ifdef CONFIG_PROC_FS
-extern struct proc_dir_entry *procRegDir;
-
+struct proc_dir_entry *procRegDir;
 #ifdef VIDEO_TURBINE_SUPPORT
 extern BOOLEAN UpdateFromGlobal;
 AP_VIDEO_STRUCT GLOBAL_AP_VIDEO_CONFIG;
